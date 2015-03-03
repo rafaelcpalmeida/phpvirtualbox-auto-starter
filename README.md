@@ -5,7 +5,7 @@ Original script: http://askubuntu.com/a/122641/372524
 
 #### Usage:
 
-$ sudo vi /etc/init.d/VMManager
+$ sudo nano /etc/init.d/VMManager
 
 Copy the content from the VMManager.sh file
 
