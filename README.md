@@ -3,7 +3,11 @@ This Shell script allows you to automatically start your VirtualBox instances wh
 
 Original script: http://askubuntu.com/a/122641/372524
 
-Usage:
+#### Usage:
+
+$ sudo vi /etc/init.d/VMManager
+
+Copy the content from the VMManager.sh file
 
 $ sudo chmod +x /etc/init.d/VMManager
 
