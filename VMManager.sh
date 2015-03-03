@@ -1,7 +1,9 @@
 #!/bin/bash
 # /etc/init.d/VMManager
 
+#Change vbox to your virtualbox user
 VMUSER=vbox
+#Insert your virtual machines in here. The pattern is 'VM Name'*space*'VM Name', like this 'VM1' 'VM2' 'VM3'
 declare -a VM=('VirtualBox-Name');
 
 case "$1" in
@@ -24,7 +26,7 @@ case "$1" in
                 sleep 3
         ;;
         *)
-                echo "Usage: /etc/init.d/StartVM {start|stop}"
+                echo "Usage: /etc/init.d/VMManager {start|stop}"
                 exit 1
         ;;
 esac
